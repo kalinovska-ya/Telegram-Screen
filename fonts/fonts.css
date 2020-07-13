@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "SFProText-Regular";
+    src: url("./FontsFree-Net-SFProText-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./FontsFree-Net-SFProText-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      	 url("./FontsFree-Net-SFProText-Regular.otf") format("opentype"), /* Open Type Font */
+      	 url("./FontsFree-Net-SFProText-Regular.svg") format("svg"), /* Legacy iOS */
+      	 url("./FontsFree-Net-SFProText-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      	 url("./FontsFree-Net-SFProText-Regular.woff") format("woff"), /* Modern Browsers */
+      	 url("./FontsFree-Net-SFProText-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SFProDisplay-Thin";
+    src: url("./FontsFree-Net-SFProDisplay-Thin.eot"); /* IE9 Compat Modes */
+    src: url("./FontsFree-Net-SFProDisplay-Thin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      	 url("./FontsFree-Net-SFProDisplay-Thin.otf") format("opentype"), /* Open Type Font */
+      	 url("./FontsFree-Net-SFProDisplay-Thin.svg") format("svg"), /* Legacy iOS */
+      	 url("./FontsFree-Net-SFProDisplay-Thin.ttf") format("truetype"), /* Safari, Android, iOS */
+      	 url("./FontsFree-Net-SFProDisplay-Thin.woff") format("woff"), /* Modern Browsers */
+      	 url("./FontsFree-Net-SFProDisplay-Thin.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dosis-Bold";
+    src: url("./Dosis-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./Dosis-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      	 url("./Dosis-Bold.otf") format("opentype"), /* Open Type Font */
+      	 url("./Dosis-Bold.svg") format("svg"), /* Legacy iOS */
+      	 url("./Dosis-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      	 url("./Dosis-Bold.woff") format("woff"), /* Modern Browsers */
+      	 url("./Dosis-Bold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}

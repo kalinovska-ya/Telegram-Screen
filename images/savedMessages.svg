@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Saved Messages</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="84.1928843%" id="linearGradient-1">
+            <stop stop-color="#6FD4FC" offset="0%"></stop>
+            <stop stop-color="#2B9EF0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Telegram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Telegram-Chats" transform="translate(-9.000000, -149.000000)">
+            <g id="Chat" transform="translate(0.000000, 142.000000)">
+                <g id="Saved-Messages" transform="translate(9.000000, 7.000000)">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="30" cy="30" r="30"></circle>
+                    <path d="M29.3270319,34.782542 L21.5549881,42.4721213 C20.9660858,43.0547752 20.0163518,43.0497098 19.433698,42.4608074 C19.155847,42.1799767 19,41.8008725 19,41.4058193 L19,20 C19,17.790861 20.790861,16 23,16 L37,16 C39.209139,16 41,17.790861 41,20 L41,41.3908587 C41,42.2192859 40.3284271,42.8908587 39.5,42.8908587 C39.1034148,42.8908587 38.7229686,42.733804 38.4418725,42.4540455 L30.7357757,34.7846189 C30.3464559,34.3971517 29.7174925,34.3962244 29.3270319,34.782542 Z" id="Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

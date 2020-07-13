@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Group Chat Screen</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside>
+            <section class="search search-position">
+                <h2 class="hidden-section-name">Search-block</h2>
+                <div class="search__block" role="searchbox">
+                    <div class="search__block-icon"></div>
+                    <span class="search__block-title">Search</span>
+                </div>
+                <div class="search__button-new" role="button"></div>
+            </section>
+
+            <section class="dialog-list">
+                <h2 class="hidden-section-name">Dialogs</h2>
+                <article class="dialog dialog_active">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/groupChat1.jpg" alt="Minsk-Json-group-chat">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">{Minsk} JSON</h3>
+                            <p class="dialog__summary-user">Alex CherryTea</p>
+                            <p class="dialog__summary-message">Photo</p>
+                        </div>
+                        <span class="dialog__date">Sun</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/groupChat2.jpg" alt="IT-KAMASUTRA-chat">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">IT-KAMASUTRA.COM</h3>
+                            <p class="dialog__summary-message">Вероятно, хватит рекомендовать «Чистый код»...</p>
+                        </div>
+                        <span class="dialog__date">Sun</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/groupChat3.jpg" alt="Uprock-studio-chat">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">{Minsk} JSON</h3>
+                            <p class="dialog__summary-message">👋Готовы? Мы начинаем https://uprock.studio/webinar...</p>
+                        </div>
+                        <span class="dialog__date">Sat</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/dialog1.jpg" alt="Naito-dialog">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Naito</h3>
+                            <p class="dialog__summary-message">Зашла попить в кофе место</p>
+                        </div>
+                        <span class="dialog__date">Thu</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/dialog2.jpg" alt="Vladimir-webdesigner-dialog">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Владимир Web-designer</h3>
+                            <p class="dialog__summary-message">Voice message</p>
+                        </div>
+                        <span class="dialog__date">Thu</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/groupChat4.jpg" alt="Vsem-Art-group-chat">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Всем Арт</h3>
+                            <p class="dialog__summary-message">На нем мы:
+                                🎨 Нарисуем вместе яркий летний солне...</p>
+                        </div>
+                        <span class="dialog__date">Web</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <div class="no-avatar">A</div>
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Anton TravelSoft</h3>
+                            <p class="dialog__summary-message">scripts.zip</p>
+                        </div>
+                        <div class="dialog__read"></div>
+                        <span class="dialog__date">7/6/20</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/savedMessages.svg" alt="Saved-Messages">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Saved Messages</h3>
+                            <p class="dialog__summary-message">Photo</p>
+                        </div>
+                        <span class="dialog__date">3/30/20</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <img class="dialog__avatar-image" src="./images/avatars/dialog3.jpg" alt="Vika-Lee-dialog">
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">Vika Lee</h3>
+                            <p class="dialog__summary-message">Слишком давно</p>
+                        </div>
+                        <span class="dialog__date">5/5/20</span>
+                    </div>
+                </article>
+
+                <article class="dialog">
+                    <div class="dialog__avatar">
+                        <div class="no-avatar no-avatar-2">D</div>
+                    </div>
+                    <div class="dialog__line">
+                        <div class="dialog__summary">
+                            <h3 class="dialog__summary-name">dopeink</h3>
+                            <p class="dialog__summary-message">Супер, будем Вас ждать :)</p>
+                        </div>
+                        <span class="dialog__date">25/2/20</span>
+                    </div>
+                </article>
+
+            <article class="dialog">
+                <div class="dialog__avatar">
+                    <img class="dialog__avatar-image" src="./images/avatars/groupChat5.jpg" alt="Zalkind-Home-group-chat">
+                </div>
+                <div class="dialog__line">
+                    <div class="dialog__summary">
+                        <h3 class="dialog__summary-name">Zalkind Home</h3>
+                        <p class="dialog__summary-user">Aliaksandr Maroz</p>
+                        <p class="dialog__summary-message">Всем привет!</p>
+                    </div>
+                    <span class="dialog__date">20/2/20</span>
+                </div>
+            </article>
+        </section>
+
+        <section class="tabs tabs-position">
+            <h2 class="hidden-section-name">Tabs</h2>
+            <div class="tabs__container" role="button"></div>
+            <div class="tabs__container" role="button"></div>
+            <div class="tabs__container" role="button"></div>
+            <div class="tabs__container" role="button"></div>
+        </section>
+    </aside>
+
+
+    <main>
+        <section class="chat-header chat-header-position">
+            <h2 class="hidden-section-name">Chat-Summary</h2>
+            <div class="chat-header__info">
+                <div class="chat-header__arrow" role="button"></div>
+                <div class="chat-header__info-avatar">
+                    <img class="chat-header__info-avatar-image" src="./images/avatars/groupChat1.jpg" alt="Minsk-Json-group-chat">
+                </div>
+                <div class="chat-header__info-text">
+                    <h2 class="chat-header__info-text-name">{Minsk} JSON</h2>
+                    <span class="chat-header__info-text-stat">509 members, </span>
+                    <span class="chat-header__info-text-stat">99 online</span>
+                </div>
+            </div>
+            <div class="chat-header__buttons">
+                <div class="chat-header__buttons-button"></div>
+                <div class="chat-header__buttons-button"></div>
+            </div>
+        </section>
+
+        <section class="group-chat">
+            <h2 class="hidden-section-name">Chat-window</h2>
+            <div class="message message1">
+                <div class="message__avatar"><div class="no-avatar no-avatar-chat">AM</div></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alexei M.</h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Ruslan Y</h3>
+                        <span class="message__text-reply-message">Можете посоветовать сервис для SMS OTP с поддержкой nodejs и не дорогой?</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>twillio</p>
+                    </div>
+                </div>
+                <span class="message__time">17:19</span>
+            </div>
+
+            <div class="message message2">
+                <div class="message__avatar"><div class="no-avatar no-avatar-chat">RY</div></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Ruslan Y</h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Alexey M</h3>
+                        <span class="message__text-reply-message">twillio</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>про это знаю, а есть альтернативы?</p>
+                    </div>
+                </div>
+                <span class="message__time">17:56</span>
+            </div>
+
+            <div class="message message3">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser1.jpg" alt="Alex-S"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alex S.</h3>
+                    <div class="message__text-message">
+                        <p>Посоветуйте тулу для реакт для драг н дроп файлов, что бы можно было с имейла файлы тягать тоже</p>
+                    </div>
+                </div>
+                <span class="message__time">20:53</span>
+            </div>
+
+            <div class="message message4">
+                <div class="message__avatar"></div>
+                <div class="message__text">
+                    <div class="message__text-message">
+                        <p>Реакт дропзон не поддерживает с имейла</p>
+                    </div>
+                </div>
+                <span class="message__time">20:53</span>
+            </div>
+
+            <div class="message message5">
+                <div class="message__avatar"><div class="no-avatar no-avatar-chat">U</div></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">UWO</h3>
+                    <div class="message__text-message">
+                        <p>Не думаю, что такое уже есть готовое</p>
+                    </div>
+                </div>
+                <span class="message__time">23:23</span>
+            </div>
+
+            <div class="new-date">12 July</div>
+
+            <div class="message message6">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser2.jpg" alt="Kirill"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Кирилл</h3>
+                    <div class="message__text-message">
+                        <p>Тут есть фронтендеры? 
+                            Как можно максимально оптимизировано написать код, который будет запускать/останавливать owl слайдер, когда он в видимости или нет? Таких слайдеров на странице много, если при скроле проходиться по каждому элементу и анализировать положение скрола и карусели, то лагает. Мб вариант с записыванием в массив положения слайдера заранее, а потом при скроле проверять или отказаться от этой фичи в пользу оптимизации?</p>
+                    </div>
+                </div>
+                <span class="message__time">18:45</span>
+            </div>
+
+            <div class="message message7">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser3.jpg" alt="Alexei-Rekish"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alexei Rekish</h3>
+                    <div class="message__text-message">
+                        <p>Intersection Observer можно использовать</p>
+                    </div>
+                </div>
+                <span class="message__time">19:00</span>
+            </div>
+
+            <div class="message message8">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser4.jpg" alt="Alex-CherryTea"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alex CherryTea <span class="message__text-user_admin"> admin</span></h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Кирилл</h3>
+                        <span class="message__text-reply-message">Тут есть фронтендеры? Как можно максимально оптимизировано написать...</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>запускать останавливать анимацию слайдера можно не на каждое движение скрола а не чаще чем раз в 300 ms например</p>
+                    </div>
+                </div>
+                <span class="message__time">19:11</span>
+            </div>
+
+            <div class="message message9">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser5.jpg" alt="Mika"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Mika</h3>
+                    <div class="message__text-message">
+                        <p>Господа, посоветуйте пожалуйста бесплатный хостинг. Чисто бота потестить, не на постоянку</p>
+                    </div>
+                </div>
+                <span class="message__time">22:04</span>
+            </div>
+
+            <div class="new-date">13 July</div>
+
+            <div class="message message10">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser4.jpg" alt="Alex-CherryTea"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alex CherryTea <span class="message__text-user_admin"> admin</span></h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Mika</h3>
+                        <span class="message__text-reply-message">Господа, посоветуйте пожалуйста бесплатный хостинг. Чисто бота потестить, не на постоянку</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>heroku</p>
+                    </div>
+                </div>
+                <span class="message__time">00:21</span>
+            </div>
+
+            <div class="message message11">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser5.jpg" alt="Mika"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Mika</h3>
+                    <div class="message__text-message">
+                        <p>на полчаса же он</p>
+                    </div>
+                </div>
+                <span class="message__time">00:23</span>
+            </div>
+
+            <div class="message message12">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser4.jpg" alt="Alex-CherryTea"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Alex CherryTea <span class="message__text-user_admin"> admin</span></h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Mika</h3>
+                        <span class="message__text-reply-message">на полчаса же он</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>а сколько тебе надо на чисто бота потестить?</p>
+                    </div>
+                </div>
+                <span class="message__time">00:53</span>
+            </div>
+
+            <div class="message message13">
+                <div class="message__avatar"><img class="message__avatar-image" src="./images/avatars/chatUser5.jpg" alt="Mika"></div>
+                <div class="message__text">
+                    <h3 class="message__text-user">Mika</h3>
+                    <div class="message__text-reply">
+                        <h3 class="message__text-reply-user">Alex CherryTea</h3>
+                        <span class="message__text-reply-message">а сколько тебе надо на чисто бота потестить?</span>
+                    </div>
+                    <div class="message__text-message">
+                        <p>Ну не я один тестить буду</p>
+                    </div>
+                </div>
+                <span class="message__time">00:58</span>
+            </div>
+        </section>
+
+        <!-- Scroll button to the end of chat - may be created with JS only -->
+
+        <section class="new-message new-message-position">
+            <h2 class="hidden-section-name">New-message-block</h2>
+            <form class="new-message__form" action="#">
+                <div class="new-message__form-attach" role="button">
+                    <div class="attach hidden">
+                        <ul class="attach__list">
+                            <li class="attach__list-item"><i class="far fa-image"></i> Photo Or Video</li>
+                            <li class="attach__list-item"><i class="fas fa-camera"></i> Camera</li>
+                            <li class="attach__list-item"><i class="fas fa-poll"></i> Poll</li>
+                            <li class="attach__list-item"><i class="far fa-file"></i> File</li>
+                            <li class="attach__list-item"><i class="fas fa-map-marker-alt"></i> Location</li>
+                        </ul>
+                    </div>
+                </div>
+                <textarea class="new-message__form-textarea" rows="1" placeholder="Write a message..."></textarea>
+            
+                <div class="new-message__form-buttons">
+                    <div class="new-message__form-buttons-button"></div>
+                    <div class="new-message__form-buttons-button"></div>
+                </div>
+                <!-- Submit needed when textarea is not empty - but it may me created only with JS -->
+            </form>
+        </section>
+
+    </main>
+</div> 
+</body>
+</html>
