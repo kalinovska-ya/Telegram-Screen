@@ -235,21 +235,21 @@ main {
     background-repeat: no-repeat;
 }
 
-.tabs__container:first-child {
+.tabs__container:nth-child(2) {
     background-image: url(../images/contactsIcon.svg);
 }
 
-.tabs__container:nth-child(2){
+.tabs__container:nth-child(3){
     background-image: url(../images/callsIcon.svg);
 }
 
-.tabs__container:nth-child(3) {
+.tabs__container:nth-child(4) {
     width: 30px;
     height: 25px;
     background-image: url(../images/chatsIcon-active.svg);
 }
 
-.tabs__container:nth-child(4) {
+.tabs__container:nth-child(5) {
     background-image: url(../images/settingsIcon.svg);
 }
 
@@ -272,10 +272,11 @@ main {
 
 .chat-header__arrow {
     width: 13px;
-    height: 22px;
+    height: 15px;
     margin: 10px;
     background-image: url(../images/arrow.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     display: none;
 }
 
@@ -561,6 +562,10 @@ margin-left: 15px;
 
     .wrapper {
         display: block;
+    }
+
+    .resize {
+        display: none;
     }
 
     .chat-header__arrow {
