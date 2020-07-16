@@ -20,7 +20,7 @@ body {
     background-color: var(--c-background);
     color: var(--c-white);
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 300px 1px 1fr;
     height: 100vh;
 }
 
@@ -32,9 +32,55 @@ aside {
 }
 
 main {
-    grid-column: 2;
+    grid-column: 3;
     display: grid;
     grid-template-rows: 50px calc(100vh - 100px) 50px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar:hover {
+    width: 30px;
+    scrollbar-width: 30px;
+}
+
+
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #ffffff2c;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff7e;
+    border-radius: 15px;
+}
+
+.resize {
+    grid-column: 2;
+    width: 1px;
+    height: 100%;
+    cursor: col-resize;
 }
 
 .hidden-section-name {
@@ -416,17 +462,19 @@ main {
 
 .hidden {
     position: absolute;
-    bottom: 56px;
-    left: 10px;
-    border-radius: 15px;
-    box-shadow: 0 0 4px #06080a;
-    background-color: var(--c-background);
-    overflow: hidden;
+    bottom: 25px;
+    left: -15px;
+    padding: 30px;
     display: none;
 }
 
 .attach__list {
     line-height: 2.5;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #06080a;
+    background-color: var(--c-background);
+    position: relative;
+    overflow: hidden;
 }
 
 .attach__list-item {
