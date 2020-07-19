@@ -24,6 +24,11 @@ body {
     height: 100vh;
 }
 
+
+input, div[role="button"], button {
+    cursor: pointer;
+}
+
 aside {
     grid-column: 1;
     display: grid;
